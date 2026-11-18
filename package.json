@@ -1,0 +1,17 @@
+{
+  "name": "playwright-typescript-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily hands-on practice with Playwright and TypeScript.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.19.0",
+    "typescript": "^5.9.3"
+  }
+}
